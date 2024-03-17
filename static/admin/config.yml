@@ -36,7 +36,7 @@ collections:
                 ],
             }
       - file: "content/about/index.md"
-        label: "About"
+        label: "whats up"
         name: "about"
         fields:
           - { label: "Title", name: "title", widget: "string" }
