@@ -1,5 +1,4 @@
 ---
-title: "About"
+title: About me
 ---
-
-Here's a bit about me.
+i like biiiiiiiirds
