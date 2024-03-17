@@ -1,7 +1,7 @@
 /* LAYOUT */
 
 body {
-background-color: #333333;
+background-color: #222;
   color: #858585;
   font-size: 125%;
   font-family: sans-serif;
@@ -78,5 +78,5 @@ img {
 .site-nav a:active, 
 .site-nav a:visited
 {
-	color: green;
+	color: lime;
 }
