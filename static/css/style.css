@@ -1,8 +1,10 @@
 /* LAYOUT */
 
 body {
+background-color: black;
   color: #333;
   font-size: 125%;
+  font-family: sans-serif;
   line-height: 1.5;
   max-width: 45rem;
   padding: 1rem;
