@@ -9,6 +9,6 @@ title = "phansy silkie"
 
   [[menu.main]]
     identifier = "about"
-    name = "About"
+    name = "whats up?"
     url = "/about"
     weight = 20
