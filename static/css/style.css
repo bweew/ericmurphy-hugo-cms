@@ -58,7 +58,7 @@ img {
     flex-direction: column;
   }
 
-  .site-nav a {
+  .site-nav a:link {
     padding: 0.5rem;
     padding-left: 0;
 	color: #7FFF00;
