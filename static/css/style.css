@@ -1,4 +1,3 @@
-/* LAYOUT */
 
 body {
 background-color: #302c2c;
@@ -79,4 +78,17 @@ img {
 .site-nav a:visited
 {
 	color: #71e772;
+}
+
+a {color: #666;}
+a:visited{color:purple;}
+
+/* Navigation */
+.site-nav a {
+  color: #71e772; /* Change only the navigation links color */
+}
+
+/* Responsive Navigation */
+@media screen and (max-width: 48rem) {
+  }
 }
