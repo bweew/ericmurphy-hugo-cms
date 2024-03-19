@@ -3,12 +3,18 @@ title = "phansy silkie"
 [menu]
   [[menu.main]]
     identifier = "posts"
-    name = "Posts"
+    name = "Blog"
     url = "/posts"
     weight = 10
 
+#  [[menu.main]]
+#    identifier = "about"
+#    name = "whats up?"
+#    url = "/about"
+#    weight = 20
+
   [[menu.main]]
-    identifier = "about"
-    name = "whats up?"
-    url = "/about"
-    weight = 20
+    identifier = "migrated posts"
+    name = "wordpress exports"
+    url = "/migrated-posts"
+    weight = 15	
