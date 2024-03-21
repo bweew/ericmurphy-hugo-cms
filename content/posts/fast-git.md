@@ -1,4 +1,4 @@
-+++
+---
 draft = false
 date = 2023-12-15 01:23:32
 title = "Giggity git: the fast git script"
@@ -6,7 +6,8 @@ description = "a script to make a git a bit easier to deal with"
 slug = "fast-git"
 tags = ["bash", "hugo", "vim"] 
 categories = []
-+++
+---
+
 # simplifying version control
 git can be complicated.
 I made a little bash script to make life easier.

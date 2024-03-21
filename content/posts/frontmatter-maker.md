@@ -1,4 +1,4 @@
-+++
+---
 draft = false
 date = '2023-12-15 02:05:29'
 title = "FrontHugo"
@@ -7,7 +7,7 @@ slug = "fronthugo"
 authors = []
 tags = []
 categories = []
-+++
+---
 
 # Frontmatter maker
 some vimscript to make making hugo blogging easier.

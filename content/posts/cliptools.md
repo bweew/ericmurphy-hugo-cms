@@ -1,4 +1,4 @@
-+++
+---
 draft = false
 date = 2023-12-09 20:50:53
 title = "first blog post"
@@ -8,7 +8,7 @@ authors = []
 tags = [] 
 categories = []
 externalLink = ""
-+++
+---
 
 3 killer things I learned today
 - [coder theme for hugo](https://github.com/luizdepra/hugo-coder)

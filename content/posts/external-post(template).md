@@ -1,4 +1,4 @@
-+++
+---
 draft = true
 authors = ["Lone Coder"]
 date = "2023-07-06"
@@ -8,4 +8,4 @@ tags = [
     "hugo"
 ]
 externalLink = "https://github.com/luizdepra/hugo-coder/wiki"
-+++
+---
