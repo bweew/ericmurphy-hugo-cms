@@ -1,10 +1,10 @@
 ---
-draft = false
-date = '2023-12-26 18:56:32'
-title = "how to vectorize"
-description = "converting jpg to scalable vectors using potrace in the terminal or even better, this web app"
-slug = "raster-to-svg"
-tags = ["vectorize", "terminal"]
+draft: false
+date: '2023-12-26 18:56:32'
+title: "how to vectorize"
+description: "converting jpg to scalable vectors using potrace in the terminal or even better, this web app"
+slug: "raster-to-svg"
+tags: ["vectorize", "terminal"]
 ---
 
 # potrace

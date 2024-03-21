@@ -1,13 +1,13 @@
 ---
-draft = false
-date = 2023-12-09 20:50:53
-title = "first blog post"
-description = ""
-slug = ""
-authors = []
-tags = [] 
-categories = []
-externalLink = ""
+draft: false
+date: 2023-12-09 20:50:53
+title: "first blog post"
+description: ""
+slug: ""
+authors: []
+tags: [] 
+categories: []
+externalLink: ""
 ---
 
 3 killer things I learned today
@@ -61,15 +61,15 @@ That smartclips feature in cliptools is essential. hugo sorts your posts by date
 
 ```
 +++
-draft = false
-date = {date:yyyy-MM-dd HH:mm:ss}
-title = ""
-description = ""
-slug = ""
-authors = []
-tags = [] 
-categories = []
-externalLink = ""
+draft: false
+date: {date:yyyy-MM-dd HH:mm:ss}
+title: ""
+description: ""
+slug: ""
+authors: []
+tags: [] 
+categories: []
+externalLink: ""
 +++
 ```
 

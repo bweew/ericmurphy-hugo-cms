@@ -1,10 +1,10 @@
 ---
-draft = false
-date = 2023-12-15 01:05:04
-title = "Add Date For Hugo In Vim"
-slug = "add-date-for-hugo-in-vim"
-tags = [] 
-categories = []
+draft: false
+date: 2023-12-15 01:05:04
+title: "Add Date For Hugo In Vim"
+slug: "add-date-for-hugo-in-vim"
+tags: [] 
+categories: []
 ---
 
 ## Leader D
