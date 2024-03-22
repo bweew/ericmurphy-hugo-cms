@@ -1,5 +1,5 @@
 title = "phansy silkie"
-
+ignoreErrors = ["error-missing-instagram-accesstoken"]
 [menu]
   [[menu.main]]
     identifier = "posts"
