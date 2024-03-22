@@ -1,6 +1,8 @@
+baseURL = "/"
 title = "phansy silkie"
-ignoreErrors = ["error-missing-instagram-accesstoken"]
-[menu]
+
+paginate = 5
+
   [[menu.main]]
     identifier = "posts"
     name = "Blog"

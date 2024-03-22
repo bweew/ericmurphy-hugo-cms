@@ -1,14 +1,15 @@
 ---
 draft: false
-date: 2023-12-09 20:50:53
-title: "first blog post"
-description: ""
-slug: ""
-authors: []
-tags: [] 
-categories: []
 externalLink: ""
----
+authors: []
+slug: ""
+title: coder theme hugo/ making frontmatter using smartclips on mac
+date: 2023-12-09 20:50:53
+tags: []
+categories: []
+description: ""
+---
+
 
 3 killer things I learned today
 - [coder theme for hugo](https://github.com/luizdepra/hugo-coder)

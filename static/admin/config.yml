@@ -55,15 +55,15 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "image", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "index"
-    label: "Index"
+  - name: "home"
+    label: "home"
     files:
       - file: "content/_index.md"
-        label: "Home Page"
+        label: "home"
         name: "home"
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Blurb", name: "blurb", widget: "text" }
+          - { label: "body", name: "body", widget: "markdown", required: false }
           - { label: "Picture", name: "picture", widget: "image", required: false } # Optional picture field
           - {
               label: "Section",
@@ -71,7 +71,7 @@ collections:
               widget: "object",
               fields:
                 [
-                  { label: "Heading", name: "heading", widget: string },
-                  { label: "Text", name: "text", widget: "text" },
+                  { label: "Heading", name: "heading", widget: string, required: false },
+                  { label: "Body", name: "body", widget: "markdown", required: false },
                 ],
             }
