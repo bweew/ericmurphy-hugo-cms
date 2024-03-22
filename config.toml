@@ -19,5 +19,3 @@ title = "phansy silkie"
     url = "/migrated-posts"
     weight = 15	
 	
-[pagination]
-paginate = 1
