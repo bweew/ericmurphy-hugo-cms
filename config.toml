@@ -15,9 +15,8 @@ paginate = 5
 #    url = "/about"
 #    weight = 20
 
-  [[menu.main]]
-    identifier = "migrated posts"
-    name = "wordpress exports"
-    url = "/migrated-posts"
-    weight = 15	
-	
+#  [[menu.main]]
+#    identifier = "migrated posts"
+#    name = "wordpress exports"
+#    url = "/migrated-posts"
+#    weight = 15	
