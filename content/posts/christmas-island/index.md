@@ -6,7 +6,7 @@ once upon a time saw a video with hundreds of red crabs swarming this island and
 
 also reminds me, once saw big centipede devour a mouse while in the hall of the mountain king played in the background, the centipedes name was "father christmas". checked and it was removed probably because it was super gorey. the memory still gives me the heebie jeebies.
 
-* berri berri
+* [berri berri](<https://en.m.wikipedia.org/wiki/Thiamine_deficiency#:~:text=Thiamine%20deficiency%20is%20a%20medical,cannot”)%20due%20to%20weakness.>)
 * the detention center
 * opium
 * colonial imperialism
