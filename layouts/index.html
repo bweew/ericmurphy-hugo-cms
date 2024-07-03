@@ -12,4 +12,6 @@
 
 <p>{{ .Params.section.text }}</p>
 
+<div>{{ .Params.body | markdownify }}</div>
+
 {{ partial "footer.html" . }}

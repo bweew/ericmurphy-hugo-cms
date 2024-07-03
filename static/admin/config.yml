@@ -1,9 +1,12 @@
 backend:
   name: git-gateway
   branch: main
+
 media_folder: "static/images" # Folder where user uploaded files should go
 public_folder: "images"
+
 local_backend: true
+
 collections:
   - name: "posts"
     label: "Posts"
@@ -17,6 +20,7 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "image", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "pages"
     label: "Pages"
     files:
@@ -32,17 +36,19 @@ collections:
               widget: "object",
               fields:
                 [
-                  { label: "Heading", name: "heading", widget: string, required: false },
+                  { label: "Heading", name: "heading", widget: "string", required: false },
                   { label: "Text", name: "text", widget: "text", required: false },
                 ],
             }
           - { label: "Picture", name: "picture", widget: "image", required: false } # Optional picture field
+
       - file: "content/about/index.md"
-        label: "whats up"
+        label: "About Page"
         name: "about"
         fields:
-          - { label: "Title", name: "title", widget: "string", required:false }
+          - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "text", required: false }
+
   - name: "migrated posts"
     label: "Migrated posts"
     folder: "content/migrated-posts"
@@ -55,15 +61,16 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "image", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "home"
-    label: "home"
+    label: "Home"
     files:
       - file: "content/_index.md"
-        label: "home"
+        label: "Home Page"
         name: "home"
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "body", name: "body", widget: "markdown", required: false }
+          - { label: "Body", name: "body", widget: "markdown", required: false }
           - { label: "Picture", name: "picture", widget: "image", required: false } # Optional picture field
           - {
               label: "Section",
@@ -71,7 +78,7 @@ collections:
               widget: "object",
               fields:
                 [
-                  { label: "Heading", name: "heading", widget: string, required: false },
-                  { label: "Body", name: "body", widget: "markdown", required: false },
+                  { label: "Heading", name: "heading", widget: "string", required: false },
+                  { label: "Text", name: "text", widget: "text", required: false },
                 ],
             }
