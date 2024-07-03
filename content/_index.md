@@ -42,4 +42,3 @@ section:
     page. Separating the code from the content really helps me stay focused,
     like a horse with blinders.
 ---
-above text
