@@ -5,7 +5,7 @@ picture: https://i.imgur.com/Mx9RmtY.png
 section:
   heading: "  welcome to my blog"
   text: >
-    Lately, I've been posting songs since my Apple Music subscription is about
+    is this the real one? Lately, I've been posting songs since my Apple Music subscription is about
      to expire on July 6. To make it easier to post YouTube embeds, I created a
      tool.
 
@@ -24,7 +24,7 @@ section:
 
      I've come to appreciate the CMS because it would be really annoying to dynamically add the footer link on every new page. Separating the code from the content really helps me stay focused, like a horse with blinders.
   body: >-
-    Lately, I've been posting songs since my Apple Music subscription is about
+    or is this one? Lately, I've been posting songs since my Apple Music subscription is about
     to expire on July 6. To make it easier to post YouTube embeds, I created a
     tool. You might think it would be as easy as copying the embed code from
     YouTube into GitHub Pages, but GH Pages doesn't allow YouTube links. 
