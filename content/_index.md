@@ -4,7 +4,7 @@ blurb: "**HOWDY**"
 picture: https://i.imgur.com/Mx9RmtY.png
 section:
   heading: "  welcome to my blog"
-  text: >-2
+  text: >
        Lately, I've been posting songs since my Apple Music subscription is about
         to expire on July 6. To make it easier to post YouTube embeds, I created a
         tool.
