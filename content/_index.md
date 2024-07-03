@@ -25,3 +25,4 @@ section:
 
     I've come to appreciate the CMS because it would be really annoying to dynamically add the footer link on every new page. Separating the code from the content really helps me stay focused, like a horse with blinders.
 ---
+test
