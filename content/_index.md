@@ -8,5 +8,5 @@ section:
   body: |-
     [RSS](https://fancy-selkie-6bad74.netlify.app/index.xml)
 
-    ![](images/rss-32.png)
+    ![rss](images/rss-32.png "rss")
 ---
