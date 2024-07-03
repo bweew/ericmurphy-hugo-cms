@@ -79,6 +79,6 @@ collections:
               fields:
                 [
                   { label: "Heading", name: "heading", widget: "string", required: false },
-                  { label: "Body", name: "body", widget: "markdown", required: false },
+                  { label: "below text", name: "text", widget: "markdown", required: false },
                 ],
             }
