@@ -7,5 +7,5 @@ section:
   text: "  "
   body: >
     [![rss
-    feed](images/rss-32.png)](https://fancy-selkie-6bad74.netlify.app/index.xml)
+    feed](images/rss-6-32.png)](https://fancy-selkie-6bad74.netlify.app/index.xml)
 ---
