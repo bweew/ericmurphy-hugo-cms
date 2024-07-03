@@ -70,7 +70,7 @@ collections:
         name: "home"
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown", required: false }
+          - { label: "Body", name: "blurb", widget: "markdown", required: false }
           - { label: "Picture", name: "picture", widget: "image", required: false } # Optional picture field
           - {
               label: "Section",
