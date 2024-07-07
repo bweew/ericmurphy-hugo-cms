@@ -12,9 +12,10 @@ internet works once you click on the wifi icon niiiiice!
 
 \# screen brightness fix
 
-
-
 ```
 sudo pacman -S xorg-xbacklight
 xbacklight -set 2
+# laptop battery improvement
+sudo pacman -S tlp
+sudo systemctl enable --now tlp
 ```
