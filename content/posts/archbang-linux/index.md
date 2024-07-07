@@ -10,9 +10,19 @@ it comes with i3
 
 internet works once you click on the wifi icon niiiiice!
 
-\# screen brightness fix
+
 
 ```
+#get packages setup
+#packey
+
+#search packages with
+#sudo pacman -Ss
+
+#install vim
+sudo pacman -S vim
+
+#fix screen brightness
 sudo pacman -S xorg-xbacklight
 xbacklight -set 2
 
