@@ -10,8 +10,6 @@ it comes with i3
 
 internet works once you click on the wifi icon niiiiice!
 
-
-
 ```
 #get packages setup
 #packey
@@ -35,4 +33,9 @@ cd ~/Backgrounds
 wget https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEm334AKoGG4A7ZWvqPuqwyTLMoyAvidnw34ignM_z0g8-oH8ZWI-iTCix4QUxqWnifp474Uc1t8zBlXi-ElEwpgyhJdZlNbKPCS_swAhvT_awySVTkrzFYaqInjnC-9RUOdv9GCqZh0pAO4CXAFCv-7UF_8-J9kbIPW6ZuaOk12h6Gxeq6HvN_9iof4M/s1920/fleur.jpg
 vim ~/.config/openbox/autostart
 feh -bg-scale ~/Backgrounds/fleur.jpg
+
+#change wallpapers with a gui (no reboot needed)
+sudo pacman -S nitrogen
+nitrogen &&
+#might need to delete feh from .config/openbox/autostart
 ```
