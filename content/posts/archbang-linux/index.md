@@ -38,4 +38,9 @@ feh -bg-scale ~/Backgrounds/fleur.jpg
 sudo pacman -S nitrogen
 nitrogen &&
 #might need to delete feh from .config/openbox/autostart
+&
+vim ~/.config/openbox/autostart
+# Start nitrogen for wallpaper management
+nitrogen --restore &
+
 ```
