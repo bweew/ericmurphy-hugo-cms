@@ -24,7 +24,9 @@ sudo pacman -S vim
 sudo pacman -S xorg-xbacklight
 xbacklight -set 2
 
-#another way
+#another way on startup
+vim .config/openbox/autostart
+#set screen brightness
 xrandr --output LVDS --brightness 0.5
 
 # laptop battery improvement
