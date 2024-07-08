@@ -24,6 +24,9 @@ sudo pacman -S vim
 sudo pacman -S xorg-xbacklight
 xbacklight -set 2
 
+#another way
+xrandr --output LVDS --brightness 0.5
+
 # laptop battery improvement
 sudo pacman -S tlp
 sudo systemctl enable --now tlp
@@ -42,5 +45,4 @@ nitrogen &&
 vim ~/.config/openbox/autostart
 # Start nitrogen for wallpaper management
 nitrogen --restore &
-
 ```
