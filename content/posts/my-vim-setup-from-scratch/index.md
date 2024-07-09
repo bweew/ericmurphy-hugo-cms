@@ -2,6 +2,13 @@
 title: my vim setup
 date: 2024-07-09T03:04:25.237Z
 ---
+Install Vimplug
+
+```
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
 \#you need gvim to enable clipboard support
 
 sudo apt install gtk3-vim
