@@ -2,10 +2,11 @@
 title: my vim setup from scratch
 date: 2024-07-09T03:04:25.237Z
 ---
-\# install vimplug
-
+```
+# Install junegunn vim-plug
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
 
 ```
 call plug#begin('~/.vim/plugged')
