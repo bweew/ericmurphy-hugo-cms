@@ -21,6 +21,19 @@ Hiding the Mouse
 
 * first install gvim so you can copy paste 
 * might as well set wallpaper while youve got the config open
+* logout without clicking on mouse nagbar
+* remap caps lock to escape
+
+
+```
+vim ~/.setxkbmap_caps_escape.sh
+
+#!/bin/bash
+setxkbmap -option caps:escape
+
+chmod +x ~/.setxkbmap_caps_escape.sh
+```
+
 
 ```
 sudo pacman -S gvim
@@ -34,4 +47,10 @@ exec --no-startup-id unclutter -idle 2
 
 #load background wallpaper on login
 exec --no-startup-id nitrogen --restore
+
+# NO NAGBAR LOGOUT
+bindsym $mod+Shift+q exec --no-startup-id i3-msg exit
+
+#caps to escape
+exec --no-startup-id ~/.setxkbmap_caps_escape.sh
 ```
