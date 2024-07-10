@@ -20,12 +20,18 @@ bindsym XF86MonBrightnessDown exec --no-startup-id sh -c 'echo $(($(cat /sys/cla
 Hiding the Mouse
 
 * first install gvim so you can copy paste 
+* might as well set wallpaper while youve got the config open
 
 ```
 sudo pacman -S gvim
 sudo pacman -S unclutter
+sudo pacman -s nitrogen
+
 vim ~/.config/i3/config
 
 #hide mouse on idle
 exec --no-startup-id unclutter -idle 2
+
+#load background wallpaper on login
+exec --no-startup-id nitrogen --restore
 ```
