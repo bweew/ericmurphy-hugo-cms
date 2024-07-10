@@ -9,12 +9,23 @@ sudo chown reborn /sys/class/backlight/radeon_bl0/brightness
 sudo chmod 664 /sys/class/backlight/radeon_bl0/brightness
 ```
 
-
-
 ```
 # Increase brightness
 bindsym XF86MonBrightnessUp exec --no-startup-id sh -c 'echo $(($(cat /sys/class/backlight/radeon_bl0/brightness) + 10)) > /sys/class/backlight/radeon_bl0/brightness'
 
 # Decrease brightness
 bindsym XF86MonBrightnessDown exec --no-startup-id sh -c 'echo $(($(cat /sys/class/backlight/radeon_bl0/brightness) - 10)) > /sys/class/backlight/radeon_bl0/brightness'
+```
+
+Hiding the Mouse
+
+* first install gvim so you can copy paste 
+
+```
+sudo pacman -S gvim
+sudo pacman -S unclutter
+vim ~/.config/i3/config
+
+#hide mouse on idle
+exec --no-startup-id unclutter -idle 2
 ```
