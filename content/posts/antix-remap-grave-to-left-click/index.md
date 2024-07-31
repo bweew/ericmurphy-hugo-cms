@@ -27,6 +27,16 @@ vim ~/.xbindkeysrc
 grave
 ```
 
+icewm toolbar settings manager > autostart add the line 
+
+```
+xbindkeys &
+```
+
+after that open up a terminal and run 
+
 ```
 icewm --restart
 ```
+
+or log out and back in
