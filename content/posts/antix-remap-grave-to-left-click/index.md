@@ -26,3 +26,7 @@ vim ~/.xbindkeysrc
 "bash ~/.scripts/graveclick.sh"
 grave
 ```
+
+```
+icewm --restart
+```
