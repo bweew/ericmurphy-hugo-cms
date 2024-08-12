@@ -6,7 +6,7 @@ to scare me into getting my act together
 
 
 
-**"Lazy" Grandson Has No Motivation**
+## **"Lazy" Grandson Has No Motivation**
 
 {{< youtube kRvlCN7amiU >}}
 
@@ -14,9 +14,6 @@ to scare me into getting my act together
 
 {{< youtube vpEl8vdGrH4 >}}
 
-## 30-Year-Old Man Won’t Leave His Grandmother’s House, Sisters Say
-
-{{< youtube https://m.youtube.com/watch?v=b881ZGkuwxM >}}
 
 ## Unemployed 35-Year-Old: ‘I Don’t Know How To Fix A Lot Of Things That I Believe Are Broken Inside
 
