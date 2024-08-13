@@ -21,3 +21,9 @@ tables
   wget 'https://www.dropbox.com/scl/fi/gboltafv69m4qjm8uf3k6/vital-wavetables.zip?rlkey=gmqtl924g74ydv2x0i22l6nbf&st=b5yn5xs5&dl=0'
 </code></pre>
 ```
+
+```
+<pre><code>
+https://www.dropbox.com/scl/fo/a9ziqo1ex9t8y7d4l1ccq/AD2wYmARqLpxabQJIkdiW64?rlkey=01csez2f986wef2lv8h3jhqxu&e=1&dl=0
+</code></pre>
+```
