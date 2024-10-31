@@ -1,5 +1,5 @@
 ---
-title: I made an embed sharer/player
+title: Embed sharer/player
 date: 2024-10-31T01:28:02.680Z
 ---
 [embed sharer/player](https://bweew.github.io/site2/10/embedsharer.html)
