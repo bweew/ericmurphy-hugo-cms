@@ -43,3 +43,13 @@ pi - nice -10
 ```
 sudo update-alternatives --config x-session-manager
 ```
+
+### Getting Rofi Working in LXDE with CMD+D
+
+sudo apt install xbindkeys and vim ~/.xbindkeysrc
+
+```
+# Launch Rofi drun with Mod+d
+"rofi -show drun"
+    mod4 + d
+```
