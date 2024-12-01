@@ -2,6 +2,8 @@
 title: i3 On Raspberry Pi Desktop OS On Mac
 date: 2024-11-30T09:41:31.971Z
 ---
+
+
 a﻿ll you need to do after installing i3 is no need to mess around in /etc/xdg/LXDE or whatever.
 
 v﻿im ~/.dmrc
@@ -53,3 +55,15 @@ sudo apt install xbindkeys and vim ~/.xbindkeysrc
 "rofi -show drun"
     mod4 + d
 ```
+
+### R﻿enoise Is Installed But Won't Run
+
+P﻿roblem is this imac is amd64 and its looking packages that are installed but on the wrong architecture. If you are trying to install all required 64-bit dependencies for a particular program (like Renoise) and you don’t want to manually install each package, you can use the following method:
+
+*  First, ensure all the required dependencies are identified:
+
+  ```
+  ldd $(which renoise)
+  # then install missing packages
+  sudo apt install libasound2:amd64 libxext6:amd64 libstdc++6:amd64
+  ```
