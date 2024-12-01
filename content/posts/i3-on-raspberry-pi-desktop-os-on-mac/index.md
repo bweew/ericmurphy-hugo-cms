@@ -65,3 +65,20 @@ ldd $(which renoise)
 # then install missing packages
 sudo apt install libasound2:amd64 libxext6:amd64 libstdc++6:amd64 pulseaudio:amd64
 ```
+
+### S﻿o You Don't Have to Keep Adding :amd64 to each package
+
+```
+sudo dpkg --add-architecture amd64
+sudo apt update
+# force it to look for amd64
+sudo vim /etc/apt/preferences.d/99amd64
+# add these lines
+Package: *
+Pin: release a=stable
+Pin-Priority: 700
+
+Package: *
+Pin: architecture amd64
+Pin-Priority: 800
+```
