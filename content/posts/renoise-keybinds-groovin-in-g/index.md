@@ -8,7 +8,7 @@ date: 2024-12-06T07:48:11.089Z
 
 ## The XML File
 
-[Here's the Keymap xml exported](https://www.dropbox.com/scl/fi/6hqfxdb77artv9lkadok5/groovin-s-keybinds.xml?rlkey=4jhye1y8ytzpj52xlwid3whv8&st=23qf3770&dl=0) you can plop it into your renoise.
+[Here's the Keymap xml exported](https://www.dropbox.com/scl/fi/97ln7a7r0a9mp1lcmjss9/renoise-keybinds-groovin.xml?rlkey=xsb0fx6dov8w6z7as615efm4o&st=ib6hewzp&dl=0) you can plop it into your renoise.
 
 ## What is Different
 The keypad by default was like Fastracker2, it would swap the first 9 samples.
